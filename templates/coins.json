@@ -1,0 +1,4502 @@
+[
+    {
+        "id": "bitcoin",
+        "name": "Bitcoin",
+        "display": "BTC",
+        "format": 0,
+        "show": true,
+        "rank": 1,
+        "price": "101,864"
+    },
+    {
+        "id": "ethereum",
+        "name": "Ethereum",
+        "display": "ETH",
+        "format": 2,
+        "show": false,
+        "rank": 2,
+        "price": "3,928.28"
+    },
+    {
+        "id": "ripple",
+        "name": "XRP",
+        "display": "XRP",
+        "rank": 3,
+        "price": "2.50",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tether",
+        "name": "Tether",
+        "display": "USDT",
+        "rank": 4,
+        "price": "1.000",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "solana",
+        "name": "Solana",
+        "display": "SOL",
+        "rank": 5,
+        "price": "226.61",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "binancecoin",
+        "name": "BNB",
+        "display": "BNB",
+        "rank": 6,
+        "price": "728.88",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "dogecoin",
+        "name": "Dogecoin",
+        "display": "DOGE",
+        "format": 3,
+        "show": false,
+        "rank": 7,
+        "price": "0.410"
+    },
+    {
+        "id": "usd-coin",
+        "name": "USDC",
+        "display": "USDC",
+        "rank": 8,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "cardano",
+        "name": "Cardano",
+        "display": "ADA",
+        "rank": 9,
+        "price": "1.13",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "staked-ether",
+        "name": "Lido Staked Ether",
+        "display": "STETH",
+        "rank": 10,
+        "price": "3,922.81",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tron",
+        "name": "TRON",
+        "display": "TRX",
+        "rank": 11,
+        "price": "0.293",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "avalanche-2",
+        "name": "Avalanche",
+        "display": "AVAX",
+        "rank": 12,
+        "price": "52.18",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "chainlink",
+        "name": "Chainlink",
+        "display": "LINK",
+        "rank": 13,
+        "price": "29.31",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "shiba-inu",
+        "name": "Shiba Inu",
+        "display": "SHIB",
+        "format": 7,
+        "show": false,
+        "rank": 14,
+        "price": "0.0000287"
+    },
+    {
+        "id": "wrapped-steth",
+        "name": "Wrapped stETH",
+        "display": "WSTETH",
+        "rank": 15,
+        "price": "4,658.47",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "the-open-network",
+        "name": "Toncoin",
+        "display": "TON",
+        "rank": 16,
+        "price": "6.34",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "sui",
+        "name": "Sui",
+        "display": "SUI",
+        "rank": 17,
+        "price": "4.72",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "wrapped-bitcoin",
+        "name": "Wrapped Bitcoin",
+        "display": "WBTC",
+        "rank": 18,
+        "price": "101,566",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "polkadot",
+        "name": "Polkadot",
+        "display": "DOT",
+        "rank": 19,
+        "price": "9.05",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "stellar",
+        "name": "Stellar",
+        "display": "XLM",
+        "rank": 20,
+        "price": "0.446",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "hedera-hashgraph",
+        "name": "Hedera",
+        "display": "HBAR",
+        "rank": 21,
+        "price": "0.306",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bitcoin-cash",
+        "name": "Bitcoin Cash",
+        "display": "BCH",
+        "rank": 22,
+        "price": "543.63",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "weth",
+        "name": "WETH",
+        "display": "WETH",
+        "rank": 23,
+        "price": "3,929.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "uniswap",
+        "name": "Uniswap",
+        "display": "UNI",
+        "rank": 24,
+        "price": "17.33",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "pepe",
+        "name": "Pepe",
+        "display": "PEPE",
+        "rank": 25,
+        "price": "0.0000242",
+        "format": 7,
+        "show": false
+    },
+    {
+        "id": "litecoin",
+        "name": "Litecoin",
+        "display": "LTC",
+        "format": 2,
+        "show": false,
+        "rank": 26,
+        "price": "123.38"
+    },
+    {
+        "id": "leo-token",
+        "name": "LEO Token",
+        "display": "LEO",
+        "rank": 27,
+        "price": "9.41",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "near",
+        "name": "NEAR Protocol",
+        "display": "NEAR",
+        "rank": 28,
+        "price": "6.91",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aptos",
+        "name": "Aptos",
+        "display": "APT",
+        "rank": 29,
+        "price": "14.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "wrapped-eeth",
+        "name": "Wrapped eETH",
+        "display": "WEETH",
+        "rank": 30,
+        "price": "4,137.83",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "hyperliquid",
+        "name": "Hyperliquid",
+        "display": "HYPE",
+        "rank": 31,
+        "price": "21.35",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "internet-computer",
+        "name": "Internet Computer",
+        "display": "ICP",
+        "rank": 32,
+        "price": "13.38",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ethena-usde",
+        "name": "Ethena USDe",
+        "display": "USDE",
+        "rank": 33,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aave",
+        "name": "Aave",
+        "display": "AAVE",
+        "rank": 34,
+        "price": "379.60",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "usds",
+        "name": "USDS",
+        "display": "USDS",
+        "rank": 35,
+        "price": "0.999",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "polygon-ecosystem-token",
+        "name": "POL (ex-MATIC)",
+        "display": "POL",
+        "rank": 36,
+        "price": "0.619",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ethereum-classic",
+        "name": "Ethereum Classic",
+        "display": "ETC",
+        "rank": 37,
+        "price": "33.75",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "crypto-com-chain",
+        "name": "Cronos",
+        "display": "CRO",
+        "rank": 38,
+        "price": "0.184",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "render-token",
+        "name": "Render",
+        "display": "RENDER",
+        "rank": 39,
+        "price": "9.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "vechain",
+        "name": "VeChain",
+        "display": "VET",
+        "rank": 40,
+        "price": "0.0597",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "fetch-ai",
+        "name": "Artificial Superintelligence Alliance",
+        "display": "FET",
+        "rank": 41,
+        "price": "1.80",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bitget-token",
+        "name": "Bitget Token",
+        "display": "BGB",
+        "rank": 42,
+        "price": "3.28",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bittensor",
+        "name": "Bittensor",
+        "display": "TAO",
+        "rank": 43,
+        "price": "582.55",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "arbitrum",
+        "name": "Arbitrum",
+        "display": "ARB",
+        "rank": 44,
+        "price": "1.03",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mantle",
+        "name": "Mantle",
+        "display": "MNT",
+        "rank": 45,
+        "price": "1.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "filecoin",
+        "name": "Filecoin",
+        "display": "FIL",
+        "rank": 46,
+        "price": "6.78",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kaspa",
+        "name": "Kaspa",
+        "display": "KAS",
+        "rank": 47,
+        "price": "0.161",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "monero",
+        "name": "Monero",
+        "display": "XMR",
+        "rank": 48,
+        "price": "215.76",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mantra-dao",
+        "name": "MANTRA",
+        "display": "OM",
+        "rank": 49,
+        "price": "4.02",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "whitebit",
+        "name": "WhiteBIT Coin",
+        "display": "WBT",
+        "rank": 50,
+        "price": "25.27",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "fantom",
+        "name": "Fantom",
+        "display": "FTM",
+        "rank": 51,
+        "price": "1.29",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "algorand",
+        "name": "Algorand",
+        "display": "ALGO",
+        "rank": 52,
+        "price": "0.434",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "cosmos",
+        "name": "Cosmos Hub",
+        "display": "ATOM",
+        "rank": 53,
+        "price": "9.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "blockstack",
+        "name": "Stacks",
+        "display": "STX",
+        "rank": 54,
+        "price": "2.33",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "dai",
+        "name": "Dai",
+        "display": "DAI",
+        "rank": 55,
+        "price": "1.000",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "okb",
+        "name": "OKB",
+        "display": "OKB",
+        "rank": 56,
+        "price": "54.65",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "immutable-x",
+        "name": "Immutable",
+        "display": "IMX",
+        "rank": 57,
+        "price": "1.92",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "optimism",
+        "name": "Optimism",
+        "display": "OP",
+        "rank": 58,
+        "price": "2.59",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "celestia",
+        "name": "Celestia",
+        "display": "TIA",
+        "rank": 59,
+        "price": "7.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ethena",
+        "name": "Ethena",
+        "display": "ENA",
+        "rank": 60,
+        "price": "1.01",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bonk",
+        "name": "Bonk",
+        "display": "BONK",
+        "rank": 61,
+        "price": "0.0000386",
+        "format": 7,
+        "show": false
+    },
+    {
+        "id": "dogwifcoin",
+        "name": "dogwifhat",
+        "display": "WIF",
+        "rank": 62,
+        "price": "2.93",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "injective-protocol",
+        "name": "Injective",
+        "display": "INJ",
+        "rank": 63,
+        "price": "28.95",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "theta-token",
+        "name": "Theta Network",
+        "display": "THETA",
+        "rank": 64,
+        "price": "2.76",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ondo-finance",
+        "name": "Ondo",
+        "display": "ONDO",
+        "rank": 65,
+        "price": "1.90",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "the-graph",
+        "name": "The Graph",
+        "display": "GRT",
+        "rank": 66,
+        "price": "0.286",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "solana-swap",
+        "name": "Solana Swap",
+        "display": "SOS",
+        "rank": 67,
+        "price": "4.34",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "virtual-protocol",
+        "name": "Virtuals Protocol",
+        "display": "VIRTUAL",
+        "rank": 68,
+        "price": "2.47",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "sei-network",
+        "name": "Sei",
+        "display": "SEI",
+        "rank": 69,
+        "price": "0.603",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "binance-peg-weth",
+        "name": "Binance-Peg WETH",
+        "display": "WETH",
+        "rank": 70,
+        "price": "3,926.59",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "worldcoin-wld",
+        "name": "Worldcoin",
+        "display": "WLD",
+        "rank": 71,
+        "price": "3.07",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "floki",
+        "name": "FLOKI",
+        "display": "FLOKI",
+        "rank": 72,
+        "price": "0.000241",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "thorchain",
+        "name": "THORChain",
+        "display": "RUNE",
+        "rank": 73,
+        "price": "6.45",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "jasmycoin",
+        "name": "JasmyCoin",
+        "display": "JASMY",
+        "rank": 74,
+        "price": "0.0452",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "gala",
+        "name": "GALA",
+        "display": "GALA",
+        "rank": 75,
+        "price": "0.0513",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "quant-network",
+        "name": "Quant",
+        "display": "QNT",
+        "rank": 76,
+        "price": "143.34",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "coinbase-wrapped-btc",
+        "name": "Coinbase Wrapped BTC",
+        "display": "CBBTC",
+        "rank": 77,
+        "price": "101,917",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "first-digital-usd",
+        "name": "First Digital USD",
+        "display": "FDUSD",
+        "rank": 78,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "lido-dao",
+        "name": "Lido DAO",
+        "display": "LDO",
+        "rank": 79,
+        "price": "2.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "rocket-pool-eth",
+        "name": "Rocket Pool ETH",
+        "display": "RETH",
+        "rank": 80,
+        "price": "4,398.31",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kelp-dao-restaked-eth",
+        "name": "Kelp DAO Restaked ETH",
+        "display": "RSETH",
+        "rank": 81,
+        "price": "4,042.43",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "beam-2",
+        "name": "Beam",
+        "display": "BEAM",
+        "rank": 82,
+        "price": "0.0357",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "the-sandbox",
+        "name": "The Sandbox",
+        "display": "SAND",
+        "rank": 83,
+        "price": "0.772",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "maker",
+        "name": "Maker",
+        "display": "MKR",
+        "rank": 84,
+        "price": "2,046.87",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mantle-staked-ether",
+        "name": "Mantle Staked Ether",
+        "display": "METH",
+        "rank": 85,
+        "price": "4,127.49",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "based-brett",
+        "name": "Brett",
+        "display": "BRETT",
+        "rank": 86,
+        "price": "0.180",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "flare-networks",
+        "name": "Flare",
+        "display": "FLR",
+        "rank": 87,
+        "price": "0.0320",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "eos",
+        "name": "EOS",
+        "display": "EOS",
+        "rank": 88,
+        "price": "1.10",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "pyth-network",
+        "name": "Pyth Network",
+        "display": "PYTH",
+        "rank": 89,
+        "price": "0.457",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "gatechain-token",
+        "name": "Gate",
+        "display": "GT",
+        "rank": 90,
+        "price": "12.99",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kucoin-shares",
+        "name": "KuCoin",
+        "display": "KCS",
+        "rank": 91,
+        "price": "13.59",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kaia",
+        "name": "Kaia",
+        "display": "KAIA",
+        "rank": 92,
+        "price": "0.279",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "raydium",
+        "name": "Raydium",
+        "display": "RAY",
+        "rank": 93,
+        "price": "5.43",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "curve-dao-token",
+        "name": "Curve DAO",
+        "display": "CRV",
+        "rank": 94,
+        "price": "1.28",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "flow",
+        "name": "Flow",
+        "display": "FLOW",
+        "rank": 95,
+        "price": "0.986",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "dydx-chain",
+        "name": "dYdX",
+        "display": "DYDX",
+        "rank": 96,
+        "price": "2.15",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tokenize-xchange",
+        "name": "Tokenize Xchange",
+        "display": "TKX",
+        "rank": 97,
+        "price": "19.05",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "jupiter-exchange-solana",
+        "name": "Jupiter",
+        "display": "JUP",
+        "rank": 98,
+        "price": "1.13",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "renzo-restaked-eth",
+        "name": "Renzo Restaked ETH",
+        "display": "EZETH",
+        "rank": 99,
+        "price": "4,041.77",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tezos",
+        "name": "Tezos",
+        "display": "XTZ",
+        "rank": 100,
+        "price": "1.48",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "arweave",
+        "name": "Arweave",
+        "display": "AR",
+        "rank": 101,
+        "price": "22.87",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "nexo",
+        "name": "NEXO",
+        "display": "NEXO",
+        "rank": 102,
+        "price": "1.48",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "solv-btc",
+        "name": "Solv Protocol SolvBTC",
+        "display": "SOLVBTC",
+        "rank": 103,
+        "price": "101,464",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "starknet",
+        "name": "Starknet",
+        "display": "STRK",
+        "rank": 104,
+        "price": "0.652",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "movement",
+        "name": "Movement",
+        "display": "MOVE",
+        "rank": 105,
+        "price": "0.657",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "helium",
+        "name": "Helium",
+        "display": "HNT",
+        "rank": 106,
+        "price": "8.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aerodrome-finance",
+        "name": "Aerodrome Finance",
+        "display": "AERO",
+        "rank": 107,
+        "price": "2.07",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "iota",
+        "name": "IOTA",
+        "display": "IOTA",
+        "rank": 108,
+        "price": "0.410",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "lombard-staked-btc",
+        "name": "Lombard Staked BTC",
+        "display": "LBTC",
+        "rank": 109,
+        "price": "101,871",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "ethereum-name-service",
+        "name": "Ethereum Name Service",
+        "display": "ENS",
+        "rank": 110,
+        "price": "42.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "fasttoken",
+        "name": "Fasttoken",
+        "display": "FTN",
+        "rank": 111,
+        "price": "3.25",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "coredaoorg",
+        "name": "Core",
+        "display": "CORE",
+        "rank": 112,
+        "price": "1.46",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bitcoin-cash-sv",
+        "name": "Bitcoin SV",
+        "display": "BSV",
+        "rank": 113,
+        "price": "67.13",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "elrond-erd-2",
+        "name": "MultiversX",
+        "display": "EGLD",
+        "rank": 114,
+        "price": "48.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bittorrent",
+        "name": "BitTorrent",
+        "display": "BTT",
+        "rank": 115,
+        "price": "0.00000135",
+        "format": 8,
+        "show": false
+    },
+    {
+        "id": "neo",
+        "name": "NEO",
+        "display": "NEO",
+        "rank": 116,
+        "price": "18.58",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "binance-staked-sol",
+        "name": "Binance Staked SOL",
+        "display": "BNSOL",
+        "rank": 117,
+        "price": "231.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aioz-network",
+        "name": "AIOZ Network",
+        "display": "AIOZ",
+        "rank": 118,
+        "price": "1.11",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "xdce-crowd-sale",
+        "name": "XDC Network",
+        "display": "XDC",
+        "rank": 119,
+        "price": "0.0834",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "msol",
+        "name": "Marinade Staked SOL",
+        "display": "MSOL",
+        "rank": 120,
+        "price": "282.28",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "axie-infinity",
+        "name": "Axie Infinity",
+        "display": "AXS",
+        "rank": 121,
+        "price": "7.89",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "peanut-the-squirrel",
+        "name": "Peanut the Squirrel",
+        "display": "PNUT",
+        "rank": 122,
+        "price": "1.22",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "matic-network",
+        "name": "Polygon",
+        "display": "MATIC",
+        "rank": 123,
+        "price": "0.618",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "mog-coin",
+        "name": "Mog Coin",
+        "display": "MOG",
+        "rank": 124,
+        "price": "0.00000306",
+        "format": 8,
+        "show": false
+    },
+    {
+        "id": "decentraland",
+        "name": "Decentraland",
+        "display": "MANA",
+        "rank": 125,
+        "price": "0.639",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "apecoin",
+        "name": "ApeCoin",
+        "display": "APE",
+        "rank": 126,
+        "price": "1.62",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "popcat",
+        "name": "Popcat",
+        "display": "POPCAT",
+        "rank": 127,
+        "price": "1.19",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "stau",
+        "name": "STAU",
+        "display": "STAU",
+        "rank": 128,
+        "price": "0.114",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ether-fi-staked-eth",
+        "name": "ether.fi Staked ETH",
+        "display": "EETH",
+        "rank": 129,
+        "price": "3,918.72",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mantle-restaked-eth",
+        "name": "Mantle Restaked ETH",
+        "display": "CMETH",
+        "rank": 130,
+        "price": "4,109.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "chiliz",
+        "name": "Chiliz",
+        "display": "CHZ",
+        "rank": 131,
+        "price": "0.115",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "havven",
+        "name": "Synthetix Network",
+        "display": "SNX",
+        "rank": 132,
+        "price": "3.11",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "jito-governance-token",
+        "name": "Jito",
+        "display": "JTO",
+        "rank": 133,
+        "price": "3.90",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "solv-protocol-solvbtc-bbn",
+        "name": "Solv Protocol SolvBTC.BBN",
+        "display": "SOLVBTC.BBN",
+        "rank": 134,
+        "price": "101,317",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "conflux-token",
+        "name": "Conflux",
+        "display": "CFX",
+        "rank": 135,
+        "price": "0.217",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "eigenlayer",
+        "name": "Eigenlayer",
+        "display": "EIGEN",
+        "rank": 136,
+        "price": "4.83",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "compound-governance-token",
+        "name": "Compound",
+        "display": "COMP",
+        "rank": 137,
+        "price": "112.20",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "pancakeswap-token",
+        "name": "PancakeSwap",
+        "display": "CAKE",
+        "rank": 138,
+        "price": "3.44",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mina-protocol",
+        "name": "Mina Protocol",
+        "display": "MINA",
+        "rank": 139,
+        "price": "0.830",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "pendle",
+        "name": "Pendle",
+        "display": "PENDLE",
+        "rank": 140,
+        "price": "5.97",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "akash-network",
+        "name": "Akash Network",
+        "display": "AKT",
+        "rank": 141,
+        "price": "3.93",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "dydx",
+        "name": "dYdX",
+        "display": "ETHDYDX",
+        "rank": 142,
+        "price": "2.15",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "zcash",
+        "name": "Zcash",
+        "display": "ZEC",
+        "rank": 143,
+        "price": "59.99",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "superfarm",
+        "name": "SuperVerse",
+        "display": "SUPER",
+        "rank": 144,
+        "price": "2.08",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ai16z",
+        "name": "ai16z",
+        "display": "AI16Z",
+        "rank": 145,
+        "price": "0.861",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "jupiter-staked-sol",
+        "name": "Jupiter Staked SOL",
+        "display": "JUPSOL",
+        "rank": 146,
+        "price": "241.17",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "arbitrum-bridged-wbtc-arbitrum-one",
+        "name": "Arbitrum Bridged WBTC (Arbitrum One)",
+        "display": "WBTC",
+        "rank": 147,
+        "price": "101,510",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "dog-go-to-the-moon-rune",
+        "name": "DOG\u2022GO\u2022TO\u2022THE\u2022MOON (Runes)",
+        "display": "DOG",
+        "rank": 148,
+        "price": "0.00918",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "wormhole",
+        "name": "Wormhole",
+        "display": "W",
+        "rank": 149,
+        "price": "0.328",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "goatseus-maximus",
+        "name": "Goatseus Maximus",
+        "display": "GOAT",
+        "rank": 150,
+        "price": "0.899",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ecash",
+        "name": "eCash",
+        "display": "XEC",
+        "rank": 151,
+        "price": "0.0000455",
+        "format": 7,
+        "show": false
+    },
+    {
+        "id": "l2-standard-bridged-weth-base",
+        "name": "L2 Standard Bridged WETH (Base)",
+        "display": "WETH",
+        "rank": 152,
+        "price": "3,928.41",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "blur",
+        "name": "Blur",
+        "display": "BLUR",
+        "rank": 153,
+        "price": "0.427",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "zksync",
+        "name": "ZKsync",
+        "display": "ZK",
+        "rank": 154,
+        "price": "0.233",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "binance-peg-dogecoin",
+        "name": "Binance-Peg Dogecoin",
+        "display": "DOGE",
+        "rank": 155,
+        "price": "0.410",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "arbitrum-bridged-weth-arbitrum-one",
+        "name": "Arbitrum Bridged WETH (Arbitrum One)",
+        "display": "WETH",
+        "rank": 156,
+        "price": "3,929.97",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "notcoin",
+        "name": "Notcoin",
+        "display": "NOT",
+        "rank": 157,
+        "price": "0.00823",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "usual-usd",
+        "name": "Usual USD",
+        "display": "USD0",
+        "rank": 158,
+        "price": "1.000",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "grass",
+        "name": "Grass",
+        "display": "GRASS",
+        "rank": 159,
+        "price": "3.43",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "axelar",
+        "name": "Axelar",
+        "display": "AXL",
+        "rank": 160,
+        "price": "0.950",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ronin",
+        "name": "Ronin",
+        "display": "RON",
+        "rank": 161,
+        "price": "2.23",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "turbo",
+        "name": "Turbo",
+        "display": "TURBO",
+        "rank": 162,
+        "price": "0.0117",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "reserve-rights-token",
+        "name": "Reserve Rights",
+        "display": "RSR",
+        "rank": 163,
+        "price": "0.0148",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "amp-token",
+        "name": "Amp",
+        "display": "AMP",
+        "rank": 164,
+        "price": "0.00972",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "ordinals",
+        "name": "ORDI",
+        "display": "ORDI",
+        "rank": 165,
+        "price": "36.47",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "baby-doge-coin",
+        "name": "Baby Doge Coin",
+        "display": "BABYDOGE",
+        "rank": 166,
+        "price": "0.00000000471",
+        "format": 11,
+        "show": false
+    },
+    {
+        "id": "oasis-network",
+        "name": "Oasis",
+        "display": "ROSE",
+        "rank": 167,
+        "price": "0.113",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "gnosis",
+        "name": "Gnosis",
+        "display": "GNO",
+        "rank": 168,
+        "price": "291.72",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "usdd",
+        "name": "USDD",
+        "display": "USDD",
+        "rank": 169,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "fartcoin",
+        "name": "Fartcoin",
+        "display": "FARTCOIN",
+        "rank": 170,
+        "price": "0.753",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "echelon-prime",
+        "name": "Echelon Prime",
+        "display": "PRIME",
+        "rank": 171,
+        "price": "14.42",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "layerzero",
+        "name": "LayerZero",
+        "display": "ZRO",
+        "rank": 172,
+        "price": "6.61",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "terra-luna",
+        "name": "Terra Luna Classic",
+        "display": "LUNC",
+        "rank": 173,
+        "price": "0.000133",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "cat-in-a-dogs-world",
+        "name": "cat in a dogs world",
+        "display": "MEW",
+        "rank": 174,
+        "price": "0.00815",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "coinbase-wrapped-staked-eth",
+        "name": "Coinbase Wrapped Staked ETH",
+        "display": "CBETH",
+        "rank": 175,
+        "price": "4,261.72",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "neiro-3",
+        "name": "Neiro",
+        "display": "NEIRO",
+        "rank": 176,
+        "price": "0.00169",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "1inch",
+        "name": "1inch",
+        "display": "1INCH",
+        "rank": 177,
+        "price": "0.503",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "spx6900",
+        "name": "SPX6900",
+        "display": "SPX",
+        "rank": 178,
+        "price": "0.742",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "safe",
+        "name": "Safe",
+        "display": "SAFE",
+        "rank": 179,
+        "price": "1.31",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "chex-token",
+        "name": "CHEX Token",
+        "display": "CHEX",
+        "rank": 180,
+        "price": "0.669",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ether-fi-staked-btc",
+        "name": "Ether.fi Staked BTC",
+        "display": "EBTC",
+        "rank": 181,
+        "price": "101,998",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "tether-gold",
+        "name": "Tether Gold",
+        "display": "XAUT",
+        "rank": 182,
+        "price": "2,663.83",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "nervos-network",
+        "name": "Nervos Network",
+        "display": "CKB",
+        "rank": 183,
+        "price": "0.0144",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "arkham",
+        "name": "Arkham",
+        "display": "ARKM",
+        "rank": 184,
+        "price": "2.07",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "frax",
+        "name": "Frax",
+        "display": "FRAX",
+        "rank": 185,
+        "price": "0.996",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "super-oeth",
+        "name": "Super OETH",
+        "display": "SUPEROETHB",
+        "rank": 186,
+        "price": "3,926.49",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "gigachad-2",
+        "name": "Gigachad",
+        "display": "GIGA",
+        "rank": 187,
+        "price": "0.0671",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "kava",
+        "name": "Kava",
+        "display": "KAVA",
+        "rank": 188,
+        "price": "0.587",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "livepeer",
+        "name": "Livepeer",
+        "display": "LPT",
+        "rank": 189,
+        "price": "17.08",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kusama",
+        "name": "Kusama",
+        "display": "KSM",
+        "rank": 190,
+        "price": "39.19",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "apenft",
+        "name": "APENFT",
+        "display": "NFT",
+        "rank": 191,
+        "price": "0.000000601",
+        "format": 9,
+        "show": false
+    },
+    {
+        "id": "astar",
+        "name": "Astar",
+        "display": "ASTR",
+        "rank": 192,
+        "price": "0.0792",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "dash",
+        "name": "Dash",
+        "display": "DASH",
+        "rank": 193,
+        "price": "48.75",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "agentfun-ai",
+        "name": "AgentFun.AI",
+        "display": "AGENTFUN",
+        "rank": 194,
+        "price": "5.87",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "holotoken",
+        "name": "Holo",
+        "display": "HOT",
+        "rank": 195,
+        "price": "0.00330",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "frax-ether",
+        "name": "Frax Ether",
+        "display": "FRXETH",
+        "rank": 196,
+        "price": "3,917.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "book-of-meme",
+        "name": "BOOK OF MEME",
+        "display": "BOME",
+        "rank": 197,
+        "price": "0.00841",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "trust-wallet-token",
+        "name": "Trust Wallet",
+        "display": "TWT",
+        "rank": 198,
+        "price": "1.39",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "dexe",
+        "name": "DeXe",
+        "display": "DEXE",
+        "rank": 199,
+        "price": "10.05",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "creditcoin-2",
+        "name": "Creditcoin",
+        "display": "CTC",
+        "rank": 200,
+        "price": "1.39",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "polygon-pos-bridged-weth-polygon-pos",
+        "name": "Polygon PoS Bridged WETH (Polygon POS)",
+        "display": "WETH",
+        "rank": 201,
+        "price": "3,926.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "telcoin",
+        "name": "Telcoin",
+        "display": "TEL",
+        "rank": 202,
+        "price": "0.00730",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "magic-eden",
+        "name": "Magic Eden",
+        "display": "ME",
+        "rank": 203,
+        "price": "4.35",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "enjincoin",
+        "name": "Enjin Coin",
+        "display": "ENJ",
+        "rank": 204,
+        "price": "0.319",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bitcoin-avalanche-bridged-btc-b",
+        "name": "Avalanche Bridged BTC (Avalanche)",
+        "display": "BTC.B",
+        "rank": 205,
+        "price": "101,504",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "ether-fi",
+        "name": "Ether.fi",
+        "display": "ETHFI",
+        "rank": 206,
+        "price": "2.68",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "theta-fuel",
+        "name": "Theta Fuel",
+        "display": "TFUEL",
+        "rank": 207,
+        "price": "0.0813",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "convex-finance",
+        "name": "Convex Finance",
+        "display": "CVX",
+        "rank": 208,
+        "price": "6.81",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "0x",
+        "name": "0x Protocol",
+        "display": "ZRX",
+        "rank": 209,
+        "price": "0.646",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "zilliqa",
+        "name": "Zilliqa",
+        "display": "ZIL",
+        "rank": 210,
+        "price": "0.0284",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "act-i-the-ai-prophecy",
+        "name": "Act I The AI Prophecy",
+        "display": "ACT",
+        "rank": 211,
+        "price": "0.577",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "beldex",
+        "name": "Beldex",
+        "display": "BDX",
+        "rank": 212,
+        "price": "0.0790",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "snek",
+        "name": "Snek",
+        "display": "SNEK",
+        "rank": 213,
+        "price": "0.00727",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "woo-network",
+        "name": "WOO",
+        "display": "WOO",
+        "rank": 214,
+        "price": "0.291",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "io",
+        "name": "io.net",
+        "display": "IO",
+        "rank": 215,
+        "price": "4.21",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "pax-gold",
+        "name": "PAX Gold",
+        "display": "PAXG",
+        "rank": 216,
+        "price": "2,665.02",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "stepn",
+        "name": "GMT",
+        "display": "GMT",
+        "rank": 217,
+        "price": "0.201",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "sweth",
+        "name": "Swell Ethereum",
+        "display": "SWETH",
+        "rank": 218,
+        "price": "4,227.04",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "stader-ethx",
+        "name": "Stader ETHx",
+        "display": "ETHX",
+        "rank": 219,
+        "price": "4,122.23",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "qubic-network",
+        "name": "Qubic",
+        "display": "QUBIC",
+        "rank": 220,
+        "price": "0.00000409",
+        "format": 8,
+        "show": false
+    },
+    {
+        "id": "true-usd",
+        "name": "TrueUSD",
+        "display": "TUSD",
+        "rank": 221,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "sats-ordinals",
+        "name": "SATS (Ordinals)",
+        "display": "SATS",
+        "rank": 222,
+        "price": "0.000000236",
+        "format": 9,
+        "show": false
+    },
+    {
+        "id": "paypal-usd",
+        "name": "PayPal USD",
+        "display": "PYUSD",
+        "rank": 223,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "benqi-liquid-staked-avax",
+        "name": "BENQI Liquid Staked AVAX",
+        "display": "SAVAX",
+        "rank": 224,
+        "price": "61.35",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tbtc",
+        "name": "tBTC",
+        "display": "TBTC",
+        "rank": 225,
+        "price": "101,659",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "dymension",
+        "name": "Dymension",
+        "display": "DYM",
+        "rank": 226,
+        "price": "2.18",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "celo",
+        "name": "Celo",
+        "display": "CELO",
+        "rank": 227,
+        "price": "0.858",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ankr",
+        "name": "Ankr Network",
+        "display": "ANKR",
+        "rank": 228,
+        "price": "0.0472",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "ethereum-pow-iou",
+        "name": "EthereumPoW",
+        "display": "ETHW",
+        "rank": 229,
+        "price": "4.33",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "verus-coin",
+        "name": "Verus",
+        "display": "VRSC",
+        "format": 2,
+        "show": false,
+        "rank": 230,
+        "price": "5.95"
+    },
+    {
+        "id": "mask-network",
+        "name": "Mask Network",
+        "display": "MASK",
+        "rank": 231,
+        "price": "4.62",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "memecoin-2",
+        "name": "Memecoin",
+        "display": "MEME",
+        "rank": 232,
+        "price": "0.0140",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "osmosis",
+        "name": "Osmosis",
+        "display": "OSMO",
+        "rank": 233,
+        "price": "0.658",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "morpho",
+        "name": "Morpho",
+        "display": "MORPHO",
+        "rank": 234,
+        "price": "2.99",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "origintrail",
+        "name": "OriginTrail",
+        "display": "TRAC",
+        "rank": 235,
+        "price": "1.12",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "iotex",
+        "name": "IoTeX",
+        "display": "IOTX",
+        "rank": 236,
+        "price": "0.0482",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "aevo-exchange",
+        "name": "Aevo",
+        "display": "AEVO",
+        "rank": 237,
+        "price": "0.504",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "wemix-token",
+        "name": "WEMIX",
+        "display": "WEMIX",
+        "rank": 238,
+        "price": "1.09",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "just",
+        "name": "JUST",
+        "display": "JST",
+        "rank": 239,
+        "price": "0.0454",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "ondo-us-dollar-yield",
+        "name": "Ondo US Dollar Yield",
+        "display": "USDY",
+        "rank": 240,
+        "price": "1.06",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "staked-frax-ether",
+        "name": "Staked Frax Ether",
+        "display": "SFRXETH",
+        "rank": 241,
+        "price": "4,325.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "basic-attention-token",
+        "name": "Basic Attention",
+        "display": "BAT",
+        "rank": 242,
+        "price": "0.295",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "manta-network",
+        "name": "Manta Network",
+        "display": "MANTA",
+        "rank": 243,
+        "price": "1.14",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "l2-standard-bridged-weth-blast",
+        "name": "L2 Standard Bridged WETH (Blast)",
+        "display": "WETH",
+        "rank": 244,
+        "price": "3,925.91",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "qtum",
+        "name": "Qtum",
+        "display": "QTUM",
+        "rank": 245,
+        "price": "4.12",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "golem",
+        "name": "Golem",
+        "display": "GLM",
+        "rank": 246,
+        "price": "0.434",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "zetachain",
+        "name": "ZetaChain",
+        "display": "ZETA",
+        "rank": 247,
+        "price": "0.751",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "sushi",
+        "name": "Sushi",
+        "display": "SUSHI",
+        "rank": 248,
+        "price": "2.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aleo",
+        "name": "ALEO",
+        "display": "ALEO",
+        "rank": 249,
+        "price": "1.53",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aethir",
+        "name": "Aethir",
+        "display": "ATH",
+        "rank": 250,
+        "price": "0.0814",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "quantixai",
+        "name": "QuantixAI",
+        "display": "QAI",
+        "rank": 251,
+        "price": "94.13",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "harmony",
+        "name": "Harmony",
+        "display": "ONE",
+        "rank": 252,
+        "price": "0.0344",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "pepecoin-2",
+        "name": "PepeCoin",
+        "display": "PEPECOIN",
+        "rank": 253,
+        "price": "3.82",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "liquid-staked-ethereum",
+        "name": "Liquid Staked ETH",
+        "display": "LSETH",
+        "rank": 254,
+        "price": "4,147.57",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "illuvium",
+        "name": "Illuvium",
+        "display": "ILV",
+        "rank": 255,
+        "price": "58.28",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ravencoin",
+        "name": "Ravencoin",
+        "display": "RVN",
+        "rank": 256,
+        "price": "0.0283",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "metars-genesis",
+        "name": "Metars Genesis",
+        "display": "MRS",
+        "rank": 257,
+        "price": "4.69",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "kadena",
+        "name": "Kadena",
+        "display": "KDA",
+        "rank": 258,
+        "price": "1.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "hashnote-usyc",
+        "name": "Hashnote USYC",
+        "display": "USYC",
+        "rank": 259,
+        "price": "1.07",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "usdb",
+        "name": "USDB",
+        "display": "USDB",
+        "rank": 260,
+        "price": "0.994",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "chia",
+        "name": "Chia",
+        "display": "XCH",
+        "rank": 261,
+        "price": "29.23",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "clearpool",
+        "name": "Clearpool",
+        "display": "CPOOL",
+        "rank": 262,
+        "price": "0.555",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bridged-usdc-polygon-pos-bridge",
+        "name": "Bridged USDC (Polygon PoS Bridge)",
+        "display": "USDC.E",
+        "rank": 263,
+        "price": "1.000",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "siacoin",
+        "name": "Siacoin",
+        "display": "SC",
+        "rank": 264,
+        "price": "0.00691",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "polymesh",
+        "name": "Polymesh",
+        "display": "POLYX",
+        "rank": 265,
+        "price": "0.358",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bitcoin-gold",
+        "name": "Bitcoin Gold",
+        "display": "BTG",
+        "rank": 266,
+        "price": "22.65",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "altlayer",
+        "name": "AltLayer",
+        "display": "ALT",
+        "rank": 267,
+        "price": "0.170",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "terra-luna-2",
+        "name": "Terra",
+        "display": "LUNA",
+        "rank": 268,
+        "price": "0.570",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "gmx",
+        "name": "GMX",
+        "display": "GMX",
+        "rank": 269,
+        "price": "39.65",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aelf",
+        "name": "aelf",
+        "display": "ELF",
+        "rank": 270,
+        "price": "0.528",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "dogs-2",
+        "name": "Dogs",
+        "display": "DOGS",
+        "rank": 271,
+        "price": "0.000742",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "zerebro",
+        "name": "Zerebro",
+        "display": "ZEREBRO",
+        "rank": 272,
+        "price": "0.385",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "moo-deng",
+        "name": "Moo Deng",
+        "display": "MOODENG",
+        "rank": 273,
+        "price": "0.385",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "yearn-finance",
+        "name": "yearn.finance",
+        "display": "YFI",
+        "rank": 274,
+        "price": "11,301",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "corgiai",
+        "name": "CorgiAI",
+        "display": "CORGIAI",
+        "rank": 275,
+        "price": "0.00110",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "gas",
+        "name": "Gas",
+        "display": "GAS",
+        "rank": 276,
+        "price": "5.76",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "binance-peg-busd",
+        "name": "Binance-Peg BUSD",
+        "display": "BUSD",
+        "rank": 277,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "across-protocol",
+        "name": "Across Protocol",
+        "display": "ACX",
+        "rank": 278,
+        "price": "0.831",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "chill-guy",
+        "name": "Just a chill guy",
+        "display": "CHILLGUY",
+        "rank": 279,
+        "price": "0.372",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "xyo-network",
+        "name": "XYO Network",
+        "display": "XYO",
+        "rank": 280,
+        "price": "0.0266",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "compound-wrapped-btc",
+        "name": "cWBTC",
+        "display": "CWBTC",
+        "rank": 281,
+        "price": "2,044.60",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mx-token",
+        "name": "MX",
+        "display": "MX",
+        "rank": 282,
+        "price": "3.74",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "peaq-2",
+        "name": "peaq",
+        "display": "PEAQ",
+        "rank": 283,
+        "price": "0.555",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "polygon-bridged-wbtc-polygon-pos",
+        "name": "Polygon Bridged WBTC (Polygon POS)",
+        "display": "WBTC",
+        "rank": 284,
+        "price": "101,478",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "decred",
+        "name": "Decred",
+        "display": "DCR",
+        "rank": 285,
+        "price": "21.75",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "0x0-ai-ai-smart-contract",
+        "name": "0x0.ai: AI Smart Contract",
+        "display": "0X0",
+        "rank": 286,
+        "price": "0.403",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "swissborg",
+        "name": "SwissBorg",
+        "display": "BORG",
+        "rank": 287,
+        "price": "0.364",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "safepal",
+        "name": "SafePal",
+        "display": "SFP",
+        "rank": 288,
+        "price": "0.733",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "skale",
+        "name": "SKALE",
+        "display": "SKL",
+        "rank": 289,
+        "price": "0.0692",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "radix",
+        "name": "Radix",
+        "display": "XRD",
+        "rank": 290,
+        "price": "0.0336",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "amnis-aptos",
+        "name": "Amnis Aptos",
+        "display": "AMAPT",
+        "rank": 291,
+        "price": "14.02",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "biconomy",
+        "name": "Biconomy",
+        "display": "BICO",
+        "rank": 292,
+        "price": "0.386",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bridged-wrapped-ether-starkgate",
+        "name": "Bridged Ether (StarkGate)",
+        "display": "ETH",
+        "rank": 293,
+        "price": "3,923.90",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "drift-protocol",
+        "name": "Drift Protocol",
+        "display": "DRIFT",
+        "rank": 294,
+        "price": "1.31",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "metis-token",
+        "name": "Metis",
+        "display": "METIS",
+        "rank": 295,
+        "price": "56.04",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "olympus",
+        "name": "Olympus",
+        "display": "OHM",
+        "rank": 296,
+        "price": "21.07",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "instadapp",
+        "name": "Instadapp",
+        "display": "INST",
+        "rank": 297,
+        "price": "8.70",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "loopring",
+        "name": "Loopring",
+        "display": "LRC",
+        "rank": 298,
+        "price": "0.272",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "pumpbtc",
+        "name": "pumpBTC",
+        "display": "PUMPBTC",
+        "rank": 299,
+        "price": "100,979",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "nosana",
+        "name": "Nosana",
+        "display": "NOS",
+        "rank": 300,
+        "price": "4.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "rocket-pool",
+        "name": "Rocket Pool",
+        "display": "RPL",
+        "rank": 301,
+        "price": "15.89",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "threshold-network-token",
+        "name": "Threshold Network",
+        "display": "T",
+        "rank": 302,
+        "price": "0.0328",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "bonfida",
+        "name": "Solana Name Service",
+        "display": "FIDA",
+        "rank": 303,
+        "price": "0.325",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "kamino",
+        "name": "Kamino",
+        "display": "KMNO",
+        "rank": 304,
+        "price": "0.237",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "non-playable-coin",
+        "name": "Non-Playable Coin",
+        "display": "NPC",
+        "rank": 305,
+        "price": "0.0392",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "frax-share",
+        "name": "Frax Share",
+        "display": "FXS",
+        "rank": 306,
+        "price": "3.66",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "uma",
+        "name": "UMA",
+        "display": "UMA",
+        "rank": 307,
+        "price": "3.73",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "avail",
+        "name": "Avail",
+        "display": "AVAIL",
+        "rank": 308,
+        "price": "0.163",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "band-protocol",
+        "name": "Band Protocol",
+        "display": "BAND",
+        "rank": 309,
+        "price": "1.99",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "constitutiondao",
+        "name": "ConstitutionDAO",
+        "display": "PEOPLE",
+        "rank": 310,
+        "price": "0.0607",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "mimblewimblecoin",
+        "name": "MimbleWimbleCoin",
+        "display": "MWC",
+        "rank": 311,
+        "price": "27.94",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "rollbit-coin",
+        "name": "Rollbit Coin",
+        "display": "RLB",
+        "rank": 312,
+        "price": "0.132",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "coti",
+        "name": "COTI",
+        "display": "COTI",
+        "rank": 313,
+        "price": "0.169",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "fwog",
+        "name": "Fwog",
+        "display": "FWOG",
+        "rank": 314,
+        "price": "0.308",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "vethor-token",
+        "name": "VeThor",
+        "display": "VTHO",
+        "rank": 315,
+        "price": "0.00361",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "tribe-2",
+        "name": "Tribe",
+        "display": "TRIBE",
+        "rank": 316,
+        "price": "0.655",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "andy-the-wisguy",
+        "name": "ANDY ETH",
+        "display": "ANDY",
+        "rank": 317,
+        "price": "0.000298",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "moonbeam",
+        "name": "Moonbeam",
+        "display": "GLMR",
+        "rank": 318,
+        "price": "0.321",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "hivemapper",
+        "name": "Hivemapper",
+        "display": "HONEY",
+        "rank": 319,
+        "price": "0.0970",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "ski-mask-dog",
+        "name": "Ski Mask Dog",
+        "display": "SKI",
+        "rank": 320,
+        "price": "0.312",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "wrapped-beacon-eth",
+        "name": "Wrapped Beacon ETH",
+        "display": "WBETH",
+        "rank": 321,
+        "price": "4,148.46",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bazaars",
+        "name": "Bazaars",
+        "display": "BZR",
+        "rank": 322,
+        "price": "25.54",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "project-galaxy",
+        "name": "Galxe",
+        "display": "GAL",
+        "rank": 323,
+        "price": "2.29",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "griffain",
+        "name": "GRIFFAIN",
+        "display": "GRIFFAIN",
+        "rank": 324,
+        "price": "0.298",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "nem",
+        "name": "NEM",
+        "display": "XEM",
+        "rank": 325,
+        "price": "0.0322",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "aixbt",
+        "name": "aixbt by Virtuals",
+        "display": "AIXBT",
+        "rank": 326,
+        "price": "0.289",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "simon-s-cat",
+        "name": "Simon's Cat",
+        "display": "CAT",
+        "rank": 327,
+        "price": "0.0000425",
+        "format": 7,
+        "show": false
+    },
+    {
+        "id": "yield-guild-games",
+        "name": "Yield Guild Games",
+        "display": "YGG",
+        "rank": 328,
+        "price": "0.692",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "solayer-staked-sol",
+        "name": "Solayer Staked SOL",
+        "display": "SSOL",
+        "rank": 329,
+        "price": "236.49",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "wilder-world",
+        "name": "Wilder World",
+        "display": "WILD",
+        "rank": 330,
+        "price": "0.867",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "zelcash",
+        "name": "Flux",
+        "display": "FLUX",
+        "rank": 331,
+        "price": "0.749",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "purr-2",
+        "name": "Purr",
+        "display": "PURR",
+        "rank": 332,
+        "price": "0.495",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "delysium",
+        "name": "Delysium",
+        "display": "AGI",
+        "rank": 333,
+        "price": "0.212",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "orca",
+        "name": "Orca",
+        "display": "ORCA",
+        "rank": 334,
+        "price": "5.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "chromaway",
+        "name": "Chromia",
+        "display": "CHR",
+        "rank": 335,
+        "price": "0.338",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "vanar-chain",
+        "name": "Vanar Chain",
+        "display": "VANRY",
+        "rank": 336,
+        "price": "0.152",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "moonwell-artemis",
+        "name": "Moonwell",
+        "display": "WELL",
+        "rank": 337,
+        "price": "0.0898",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "wrapped-ether-mantle-bridge",
+        "name": "Wrapped Ether (Mantle Bridge)",
+        "display": "WETH",
+        "rank": 338,
+        "price": "3,917.90",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "degen-base",
+        "name": "Degen (Base)",
+        "display": "DEGEN",
+        "rank": 339,
+        "price": "0.0160",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "apu-s-club",
+        "name": "Apu Apustaja",
+        "display": "APU",
+        "rank": 340,
+        "price": "0.000817",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "verge",
+        "name": "Verge",
+        "display": "XVG",
+        "rank": 341,
+        "price": "0.0164",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "blast",
+        "name": "Blast",
+        "display": "BLAST",
+        "rank": 342,
+        "price": "0.0117",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "audius",
+        "name": "Audius",
+        "display": "AUDIO",
+        "rank": 343,
+        "price": "0.211",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "paal-ai",
+        "name": "PAAL AI",
+        "display": "PAAL",
+        "rank": 344,
+        "price": "0.304",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "shiro-neko-2",
+        "name": "Shiro Neko",
+        "display": "SHIRO",
+        "rank": 345,
+        "price": "0.000000262",
+        "format": 9,
+        "show": false
+    },
+    {
+        "id": "nxm",
+        "name": "Nexus Mutual",
+        "display": "NXM",
+        "rank": 346,
+        "price": "79.09",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "api3",
+        "name": "API3",
+        "display": "API3",
+        "rank": 347,
+        "price": "2.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "casper-network",
+        "name": "Casper Network",
+        "display": "CSPR",
+        "rank": 348,
+        "price": "0.0208",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "ontology",
+        "name": "Ontology",
+        "display": "ONT",
+        "rank": 349,
+        "price": "0.289",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "digibyte",
+        "name": "DigiByte",
+        "display": "DGB",
+        "rank": 350,
+        "price": "0.0150",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "treehouse-eth",
+        "name": "Treehouse ETH",
+        "display": "TETH",
+        "rank": 351,
+        "price": "4,633.82",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "lcx",
+        "name": "LCX",
+        "display": "LCX",
+        "rank": 352,
+        "price": "0.335",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "renzo",
+        "name": "Renzo",
+        "display": "REZ",
+        "rank": 353,
+        "price": "0.0527",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "coinex-token",
+        "name": "CoinEx",
+        "display": "CET",
+        "rank": 354,
+        "price": "0.0941",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "cetus-protocol",
+        "name": "Cetus Protocol",
+        "display": "CETUS",
+        "rank": 355,
+        "price": "0.413",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "constellation-labs",
+        "name": "Constellation",
+        "display": "DAG",
+        "rank": 356,
+        "price": "0.0730",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "singularitynet",
+        "name": "SingularityNET",
+        "display": "AGIX",
+        "rank": 357,
+        "price": "0.775",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ponke",
+        "name": "PONKE",
+        "display": "PONKE",
+        "rank": 358,
+        "price": "0.469",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "harrypotterobamasonic10in",
+        "name": "HarryPotterObamaSonic10Inu (ETH)",
+        "display": "BITCOIN",
+        "rank": 359,
+        "price": "0.256",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "nano",
+        "name": "Nano",
+        "display": "XNO",
+        "rank": 360,
+        "price": "1.90",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "g-token",
+        "name": "Gravity",
+        "display": "G",
+        "rank": 361,
+        "price": "0.0352",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "deep",
+        "name": "DeepBook",
+        "display": "DEEP",
+        "rank": 362,
+        "price": "0.102",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "compound-ether",
+        "name": "cETH",
+        "display": "CETH",
+        "rank": 363,
+        "price": "78.96",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "sun-token",
+        "name": "Sun Token",
+        "display": "SUN",
+        "rank": 364,
+        "price": "0.0256",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "ampleforth",
+        "name": "Ampleforth",
+        "display": "AMPL",
+        "rank": 365,
+        "price": "1.21",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "humans-ai",
+        "name": "Humans.ai",
+        "display": "HEART",
+        "rank": 366,
+        "price": "0.0383",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "xai-blockchain",
+        "name": "Xai",
+        "display": "XAI",
+        "rank": 367,
+        "price": "0.333",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "metaplex",
+        "name": "Metaplex",
+        "display": "MPLX",
+        "rank": 368,
+        "price": "0.321",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "icon",
+        "name": "ICON",
+        "display": "ICX",
+        "rank": 369,
+        "price": "0.232",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "swipe",
+        "name": "Solar",
+        "display": "SXP",
+        "rank": 370,
+        "price": "0.382",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "big-time",
+        "name": "Big Time",
+        "display": "BIGTIME",
+        "rank": 371,
+        "price": "0.176",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "songbird",
+        "name": "Songbird",
+        "display": "SGB",
+        "rank": 372,
+        "price": "0.0150",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "zencash",
+        "name": "Horizen",
+        "display": "ZEN",
+        "rank": 373,
+        "price": "14.99",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "mantle-bridged-usdt-mantle",
+        "name": "Mantle Bridged USDT (Mantle)",
+        "display": "USDT",
+        "rank": 374,
+        "price": "0.998",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "liquity",
+        "name": "Liquity",
+        "display": "LQTY",
+        "rank": 375,
+        "price": "2.42",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "spectral",
+        "name": "Spectral",
+        "display": "SPEC",
+        "rank": 376,
+        "price": "16.44",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "space-id",
+        "name": "SPACE ID",
+        "display": "ID",
+        "rank": 377,
+        "price": "0.542",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "milady-cult-coin",
+        "name": "Milady Cult Coin",
+        "display": "CULT",
+        "rank": 378,
+        "price": "0.00530",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "hamster-kombat",
+        "name": "Hamster Kombat",
+        "display": "HMSTR",
+        "rank": 379,
+        "price": "0.00359",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "vvs-finance",
+        "name": "VVS Finance",
+        "display": "VVS",
+        "rank": 380,
+        "price": "0.00000481",
+        "format": 8,
+        "show": false
+    },
+    {
+        "id": "saga-2",
+        "name": "Saga",
+        "display": "SAGA",
+        "rank": 381,
+        "price": "2.12",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "status",
+        "name": "Status",
+        "display": "SNT",
+        "rank": 382,
+        "price": "0.0568",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "gmt-token",
+        "name": "Gomining Token",
+        "display": "GOMINING",
+        "rank": 383,
+        "price": "0.540",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "pinlink",
+        "name": "PinLink",
+        "display": "PIN",
+        "rank": 384,
+        "price": "2.80",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "quorium",
+        "name": "Quorium",
+        "display": "QGOLD",
+        "rank": 385,
+        "price": "2,649.96",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "oec-token",
+        "name": "OKT Chain",
+        "display": "OKT",
+        "rank": 386,
+        "price": "12.52",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "alephium",
+        "name": "Alephium",
+        "display": "ALPH",
+        "rank": 387,
+        "price": "2.35",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "velodrome-finance",
+        "name": "Velodrome Finance",
+        "display": "VELO",
+        "rank": 388,
+        "price": "0.252",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "centrifuge",
+        "name": "Centrifuge",
+        "display": "CFG",
+        "rank": 389,
+        "price": "0.433",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "abtc",
+        "name": "aBTC",
+        "display": "ABTC",
+        "rank": 390,
+        "price": "101,309",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "basedai",
+        "name": "BasedAI",
+        "display": "BASEDAI",
+        "rank": 391,
+        "price": "6.14",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "lorenzo-stbtc",
+        "name": "Lorenzo stBTC",
+        "display": "STBTC",
+        "rank": 392,
+        "price": "99,712",
+        "format": 0,
+        "show": false
+    },
+    {
+        "id": "balancer",
+        "name": "Balancer",
+        "display": "BAL",
+        "rank": 393,
+        "price": "3.54",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "bouncebit",
+        "name": "BounceBit",
+        "display": "BB",
+        "rank": 394,
+        "price": "0.522",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "rune-pups",
+        "name": "PUPS\u2022WORLD\u2022PEACE",
+        "display": "PUPS",
+        "rank": 395,
+        "price": "0.219",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bitkub-coin",
+        "name": "Bitkub Coin",
+        "display": "KUB",
+        "rank": 396,
+        "price": "2.40",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "insurance-2",
+        "name": "INSURANCE",
+        "display": "INSURANCE",
+        "rank": 397,
+        "price": "11.37",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "huobi-token",
+        "name": "Huobi",
+        "display": "HT",
+        "rank": 398,
+        "price": "1.28",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "joe",
+        "name": "JOE",
+        "display": "JOE",
+        "rank": 399,
+        "price": "0.554",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ssv-network",
+        "name": "SSV Network",
+        "display": "SSV",
+        "rank": 400,
+        "price": "29.29",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "landwolf-0x67",
+        "name": "LandWolf",
+        "display": "WOLF",
+        "rank": 401,
+        "price": "0.000229",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "reserve-protocol-eth-plus",
+        "name": "ETHPlus",
+        "display": "ETH+",
+        "rank": 402,
+        "price": "4,030.83",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "solo-coin",
+        "name": "Sologenic",
+        "display": "SOLO",
+        "rank": 403,
+        "price": "0.510",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "smooth-love-potion",
+        "name": "Smooth Love Potion",
+        "display": "SLP",
+        "rank": 404,
+        "price": "0.00498",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "zignaly",
+        "name": "Zignaly",
+        "display": "ZIG",
+        "rank": 405,
+        "price": "0.144",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "tellor",
+        "name": "Tellor Tributes",
+        "display": "TRB",
+        "rank": 406,
+        "price": "77.04",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "waves",
+        "name": "Waves",
+        "display": "WAVES",
+        "rank": 407,
+        "price": "2.02",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "cortex",
+        "name": "Cortex",
+        "display": "CTXC",
+        "rank": 408,
+        "price": "0.890",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "velo",
+        "name": "Velo",
+        "display": "VELO",
+        "rank": 409,
+        "price": "0.0269",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "lofi-2",
+        "name": "LOFI",
+        "display": "LOFI",
+        "rank": 410,
+        "price": "0.205",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "oraichain-token",
+        "name": "Oraichain",
+        "display": "ORAI",
+        "rank": 411,
+        "price": "11.95",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ultima",
+        "name": "Ultima",
+        "display": "ULTIMA",
+        "rank": 412,
+        "price": "4,661.60",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "coin98",
+        "name": "Coin98",
+        "display": "C98",
+        "rank": 413,
+        "price": "0.223",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "usdx-money-usdx",
+        "name": "usdx.money USDX",
+        "display": "USDX",
+        "rank": 414,
+        "price": "1.000",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "origin-ether",
+        "name": "Origin Ether",
+        "display": "OETH",
+        "rank": 415,
+        "price": "3,928.80",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "goldfinch",
+        "name": "Goldfinch",
+        "display": "GFI",
+        "rank": 416,
+        "price": "2.13",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "iexec-rlc",
+        "name": "iExec RLC",
+        "display": "RLC",
+        "rank": 417,
+        "price": "2.65",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "lisk",
+        "name": "Lisk",
+        "display": "LSK",
+        "rank": 418,
+        "price": "1.17",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "iostoken",
+        "name": "IOST",
+        "display": "IOST",
+        "rank": 419,
+        "price": "0.00890",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "blox",
+        "name": "Blox",
+        "display": "CDT",
+        "rank": 420,
+        "price": "0.277",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "wax",
+        "name": "WAX",
+        "display": "WAXP",
+        "rank": 421,
+        "price": "0.0537",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "marlin",
+        "name": "Marlin",
+        "display": "POND",
+        "rank": 422,
+        "price": "0.0232",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "mythos",
+        "name": "Mythos",
+        "display": "MYTH",
+        "rank": 423,
+        "price": "0.246",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "crypto-trading-fund",
+        "name": "Crypto Trading Fund",
+        "display": "CTF",
+        "rank": 424,
+        "price": "1.56",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "elixir-deusd",
+        "name": "Elixir deUSD",
+        "display": "DEUSD",
+        "rank": 425,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "cow-protocol",
+        "name": "CoW Protocol",
+        "display": "COW",
+        "rank": 426,
+        "price": "0.661",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "kelp-gain",
+        "name": "Kelp Gain",
+        "display": "AGETH",
+        "rank": 427,
+        "price": "3,997.80",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "renzo-restaked-lst",
+        "name": "Renzo Restaked LST",
+        "display": "PZETH",
+        "rank": 428,
+        "price": "4,627.67",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "pixels",
+        "name": "Pixels",
+        "display": "PIXEL",
+        "rank": 429,
+        "price": "0.236",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bybit-staked-sol",
+        "name": "Bybit Staked SOL",
+        "display": "BBSOL",
+        "rank": 430,
+        "price": "236.61",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "ousg",
+        "name": "OUSG",
+        "display": "OUSG",
+        "rank": 431,
+        "price": "109.22",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "tars-protocol",
+        "name": "TARS AI",
+        "display": "TAI",
+        "rank": 432,
+        "price": "0.411",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "banana-gun",
+        "name": "Banana Gun",
+        "display": "BANANA",
+        "rank": 433,
+        "price": "52.25",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "venus",
+        "name": "Venus",
+        "display": "XVS",
+        "rank": 434,
+        "price": "11.03",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "everipedia",
+        "name": "IQ",
+        "display": "IQ",
+        "rank": 435,
+        "price": "0.00917",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "stakewise-v3-oseth",
+        "name": "StakeWise Staked ETH",
+        "display": "OSETH",
+        "rank": 436,
+        "price": "4,060.84",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "cartesi",
+        "name": "Cartesi",
+        "display": "CTSI",
+        "rank": 437,
+        "price": "0.211",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "suilend",
+        "name": "Suilend",
+        "display": "SEND",
+        "rank": 438,
+        "price": "3.49",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "synapse-2",
+        "name": "Synapse",
+        "display": "SYN",
+        "rank": 439,
+        "price": "0.790",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "magic",
+        "name": "Treasure",
+        "display": "MAGIC",
+        "rank": 440,
+        "price": "0.625",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "taiko",
+        "name": "Taiko",
+        "display": "TAIKO",
+        "rank": 441,
+        "price": "2.10",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "edu-coin",
+        "name": "Open Campus",
+        "display": "EDU",
+        "rank": 442,
+        "price": "0.663",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "numeraire",
+        "name": "Numeraire",
+        "display": "NMR",
+        "rank": 443,
+        "price": "22.59",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "arcblock",
+        "name": "Arcblock",
+        "display": "ABT",
+        "rank": 444,
+        "price": "1.74",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "osaka-protocol",
+        "name": "Osaka Protocol",
+        "display": "OSAK",
+        "rank": 445,
+        "price": "0.000000223",
+        "format": 9,
+        "show": false
+    },
+    {
+        "id": "ocean-protocol",
+        "name": "Ocean Protocol",
+        "display": "OCEAN",
+        "rank": 446,
+        "price": "0.779",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "scroll",
+        "name": "Scroll",
+        "display": "SCR",
+        "rank": 447,
+        "price": "1.22",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "rcge",
+        "name": "RCGE",
+        "display": "$RCGE",
+        "rank": 448,
+        "price": "0.0142",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "zano",
+        "name": "Zano",
+        "display": "ZANO",
+        "rank": 449,
+        "price": "11.60",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "merlin-chain",
+        "name": "Merlin Chain",
+        "display": "MERL",
+        "rank": 450,
+        "price": "0.347",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "alchemix-usd",
+        "name": "Alchemix USD",
+        "display": "ALUSD",
+        "rank": 451,
+        "price": "0.992",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "department-of-government-efficiency",
+        "name": "Department Of Government Efficiency",
+        "display": "DOGE",
+        "rank": 452,
+        "price": "0.169",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ecomi",
+        "name": "ECOMI",
+        "display": "OMI",
+        "rank": 453,
+        "price": "0.000612",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "autonolas",
+        "name": "Autonolas",
+        "display": "OLAS",
+        "rank": 454,
+        "price": "2.23",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "zentry",
+        "name": "Zentry",
+        "display": "ZENT",
+        "rank": 455,
+        "price": "0.0268",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "alchemy-pay",
+        "name": "Alchemy Pay",
+        "display": "ACH",
+        "rank": 456,
+        "price": "0.0327",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "neutron-3",
+        "name": "Neutron",
+        "display": "NTRN",
+        "rank": 457,
+        "price": "0.568",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "ong",
+        "name": "Ontology Gas",
+        "display": "ONG",
+        "rank": 458,
+        "price": "0.405",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "power-ledger",
+        "name": "Powerledger",
+        "display": "POWR",
+        "rank": 459,
+        "price": "0.304",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "dent",
+        "name": "Dent",
+        "display": "DENT",
+        "rank": 460,
+        "price": "0.00168",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "nodeai",
+        "name": "NodeAI",
+        "display": "GPU",
+        "rank": 461,
+        "price": "1.65",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "truefi",
+        "name": "TrueFi",
+        "display": "TRU",
+        "rank": 462,
+        "price": "0.127",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bora",
+        "name": "BORA",
+        "display": "BORA",
+        "rank": 463,
+        "price": "0.146",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "usd-coin-ethereum-bridged",
+        "name": "Arbitrum Bridged USDC (Arbitrum)",
+        "display": "USDC.E",
+        "rank": 464,
+        "price": "1.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "verum-coin",
+        "name": "Verum Coin",
+        "display": "VERUM",
+        "rank": 465,
+        "price": "1,706.41",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "zircuit",
+        "name": "Zircuit",
+        "display": "ZRC",
+        "rank": 466,
+        "price": "0.0723",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "moonriver",
+        "name": "Moonriver",
+        "display": "MOVR",
+        "rank": 467,
+        "price": "17.00",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "hypurr-fun",
+        "name": "Hypurr Fun",
+        "display": "HFUN",
+        "rank": 468,
+        "price": "158.43",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "cheems-token",
+        "name": "Cheems Token",
+        "display": "CHEEMS",
+        "rank": 469,
+        "price": "0.000000781",
+        "format": 9,
+        "show": false
+    },
+    {
+        "id": "hashai",
+        "name": "HashAI",
+        "display": "HASHAI",
+        "rank": 470,
+        "price": "0.00177",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "secret",
+        "name": "Secret",
+        "display": "SCRT",
+        "rank": 471,
+        "price": "0.535",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "gho",
+        "name": "GHO",
+        "display": "GHO",
+        "rank": 472,
+        "price": "0.998",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "usda-2",
+        "name": "USDa",
+        "display": "USDA",
+        "rank": 473,
+        "price": "0.999",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "bone-shibaswap",
+        "name": "Bone ShibaSwap",
+        "display": "BONE",
+        "rank": 474,
+        "price": "0.632",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "chaingpt",
+        "name": "ChainGPT",
+        "display": "CGPT",
+        "rank": 475,
+        "price": "0.199",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "carv",
+        "name": "CARV",
+        "display": "CARV",
+        "rank": 476,
+        "price": "0.973",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "luckycoin",
+        "name": "Luckycoin",
+        "display": "LKY",
+        "rank": 477,
+        "price": "9.41",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "airtor-protocol",
+        "name": "ANyONe Protocol",
+        "display": "ANYONE",
+        "rank": 478,
+        "price": "1.91",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "aurora-near",
+        "name": "Aurora",
+        "display": "AURORA",
+        "rank": 479,
+        "price": "0.275",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "big-dog-fink",
+        "name": "Big Dog Fink",
+        "display": "BINK",
+        "rank": 480,
+        "price": "0.00103",
+        "format": 5,
+        "show": false
+    },
+    {
+        "id": "ergo",
+        "name": "Ergo",
+        "display": "ERG",
+        "rank": 481,
+        "price": "1.93",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "l2-standard-bridged-weth-optimism",
+        "name": "L2 Standard Bridged WETH (Optimism)",
+        "display": "WETH",
+        "rank": 482,
+        "price": "3,945.54",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "civic",
+        "name": "Civic",
+        "display": "CVC",
+        "rank": 483,
+        "price": "0.189",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "spell-token",
+        "name": "Spell",
+        "display": "SPELL",
+        "rank": 484,
+        "price": "0.000984",
+        "format": 6,
+        "show": false
+    },
+    {
+        "id": "dola-usd",
+        "name": "DOLA",
+        "display": "DOLA",
+        "rank": 485,
+        "price": "0.997",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "cyberconnect",
+        "name": "CYBER",
+        "display": "CYBER",
+        "rank": 486,
+        "price": "4.85",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "netmind-token",
+        "name": "NetMind Token",
+        "display": "NMT",
+        "rank": 487,
+        "price": "3.56",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "hive",
+        "name": "Hive",
+        "display": "HIVE",
+        "rank": 488,
+        "price": "0.322",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "m2-global-wealth-limited-mmx",
+        "name": "MMX",
+        "display": "MMX",
+        "rank": 489,
+        "price": "0.997",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "my-neighbor-alice",
+        "name": "My Neighbor Alice",
+        "display": "ALICE",
+        "rank": 490,
+        "price": "1.61",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "orbs",
+        "name": "Orbs",
+        "display": "ORBS",
+        "rank": 491,
+        "price": "0.0327",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "coq-inu",
+        "name": "Coq Inu",
+        "display": "COQ",
+        "rank": 492,
+        "price": "0.00000212",
+        "format": 8,
+        "show": false
+    },
+    {
+        "id": "genesysgo-shadow",
+        "name": "Shadow Token",
+        "display": "SHDW",
+        "rank": 493,
+        "price": "0.905",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "lumia",
+        "name": "Lumia",
+        "display": "LUMIA",
+        "rank": 494,
+        "price": "1.95",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "celer-network",
+        "name": "Celer Network",
+        "display": "CELR",
+        "rank": 495,
+        "price": "0.0257",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "tokenfi",
+        "name": "TokenFi",
+        "display": "TOKEN",
+        "rank": 496,
+        "price": "0.0693",
+        "format": 4,
+        "show": false
+    },
+    {
+        "id": "dodo",
+        "name": "DODO",
+        "display": "DODO",
+        "rank": 497,
+        "price": "0.197",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "pundi-x-2",
+        "name": "Pundi X",
+        "display": "PUNDIX",
+        "rank": 498,
+        "price": "0.549",
+        "format": 3,
+        "show": false
+    },
+    {
+        "id": "trufin-staked-apt",
+        "name": "TruFin Staked APT",
+        "display": "TRUAPT",
+        "rank": 499,
+        "price": "14.24",
+        "format": 2,
+        "show": false
+    },
+    {
+        "id": "sundog",
+        "name": "Sundog",
+        "display": "SUNDOG",
+        "rank": 500,
+        "price": "0.142",
+        "format": 3,
+        "show": false
+    }
+]
