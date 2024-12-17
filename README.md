@@ -3,8 +3,8 @@
 # PiE-ink
 
 <div style="display: flex; gap: 10px;"> 
-    <img src="images/piE-Ink.jpg" width="300">
-    <img src="images/piE-Ink2.jpg" height="300">
+    <img src="images/pie-ink.jpg" height="300">
+    <img src="images/pie-ink2.jpg" height="300">
 </div>
 A compact Raspberry Pi Zero 2 W project featuring a 2.13-inch e-ink display. Display time, crypto prices, jokes, quotes, custom messages, weather, and even your own drawings—all controlled through a local web interface. Personalize your display with ease and bring your ideas to life on this low-power, minimalist screen!
 
