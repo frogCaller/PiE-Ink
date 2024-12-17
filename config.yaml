@@ -1,0 +1,26 @@
+Cryptogotchi Settings:
+  display_type: epd2in13_V4
+  username: Coolbeans
+  dark_mode: false
+  screen_rotation: 180
+  refresh_rate: 3
+  show_faces: true
+  graph_history: 7
+Text Settings:
+  text_style: 6
+  text_height: 36
+  text_alignment: center
+  text_justify: center
+  dark_mode: false
+  screen_rotation: 180
+  quote_display_duration: 20
+Time Settings:
+  time_format: '12'
+  show_seconds: false
+  text_style: 6
+  text_height: 36
+  dark_mode: false
+  screen_rotation: true
+Drawing Settings:
+  screen_rotation: 180
+  dark_mode: false
