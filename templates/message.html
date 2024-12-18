@@ -17,16 +17,17 @@
             border-radius: 10px;
             box-sizing: border-box;
             margin: 20px auto;
-            text-align: left;
+            text-align: left; /* Align text to the left */
             padding: 8px;
-            overflow-y: auto;
+            overflow-y: auto; /* Allow vertical scrolling */
             word-wrap: break-word;
             background-color: #f0f0f0;
+        
+            /* Flexbox for alignment */
             display: flex;
-            align-items: flex-start; /* Default alignment to top */
-            justify-content: flex-start; /* Default horizontal alignment */
+            flex-direction: column; /* Ensure text flows top-to-bottom */
+            justify-content: flex-start; /* Default vertical alignment (top) */
         }
-      
         /* Adjustments for larger screens (desktop) */
         @media (min-width: 768px) {
             .text-box {
@@ -38,18 +39,21 @@
     </style>
 </head>
 <body>
-    <div class="button-container">
-        <button id="homePageButton" class="home-button"><i class="fa-solid fa-house"></i></button>
-
-        <div class="dropdown">
-            <button class="dropdown-button" onclick="toggleDropdown()"><i class="fa-solid fa-sliders"></i>
-            </button>
-            <div class="dropdown-content" id="dropdownMenu">
-                <button id="runFortuneButton"><i class="fa-solid fa-clover"></i> Fortune</button>
-                <button id="runJokeButton"><i class="fa-regular fa-face-grin-tongue-wink"></i> Jokes</button>
+    <div class="header-container">
+        <div class="button-container">
+            <button id="homePageButton" class="home-button"><i class="fa-solid fa-house"></i></button>
+    
+            <div class="dropdown">
+                <button class="dropdown-button" onclick="toggleDropdown()"><i class="fa-solid fa-sliders"></i>
+                </button>
+                <div class="dropdown-content" id="dropdownMenu">
+                    <button id="runFortuneButton"><i class="fa-solid fa-clover"></i> Fortune</button>
+                    <button id="runJokeButton"><i class="fa-regular fa-face-grin-tongue-wink"></i> Jokes</button>
+                </div>
             </div>
         </div>
     </div>
+
   
     <h1 class="home-title">Text</h1>
   
@@ -83,12 +87,10 @@
     </div>
 
 
-
     <!-- Display Button -->
     <div class="button-container">
         <button id="displayButton" style="width: 100px;"><i class="fa-solid fa-display"></i></button>
     </div>
-  
   
     <script src="{{ url_for('static', filename='message.js') }}"></script>
 
