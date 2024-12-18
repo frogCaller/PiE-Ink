@@ -170,18 +170,15 @@ justifyRightButton.addEventListener("click", () => {
         
 // Vertical alignment
 alignTopButton.addEventListener("click", () => {
-    verticalAlign = "flex-start"; // Top alignment for flexbox
-    textBox.style.alignItems = verticalAlign;
+    textBox.style.justifyContent = "flex-start"; // Align text to the top
 });
 
 alignMiddleButton.addEventListener("click", () => {
-    verticalAlign = "center"; // Center alignment for flexbox
-    textBox.style.alignItems = verticalAlign;
+    textBox.style.justifyContent = "center"; // Center-align text vertically
 });
 
 alignBottomButton.addEventListener("click", () => {
-    verticalAlign = "flex-end"; // Bottom alignment for flexbox
-    textBox.style.alignItems = verticalAlign;
+    textBox.style.justifyContent = "flex-end"; // Align text to the bottom
 });
 
 const scriptsToTerminate = ['cryptogotchi.py', 'time.py', 'write.py', 'weather.py']; // List of scripts to terminate
@@ -356,7 +353,6 @@ function setupScriptRunner(buttonId, displayType) {
 }
 
 function showNotification(message, isError = false) {
-    // Create notification element
     const notification = document.createElement('div');
     notification.textContent = message;
     notification.style.position = 'fixed';
@@ -374,20 +370,23 @@ function showNotification(message, isError = false) {
     notification.style.opacity = '0';
     notification.style.transition = 'opacity 0.3s';
 
-   // Add to body
     document.body.appendChild(notification);
  
-    // Fade in
     setTimeout(() => {
         notification.style.opacity = '1';
     }, 50);
 
-    // Remove after 2 seconds
     setTimeout(() => {
         notification.style.opacity = '0';
         setTimeout(() => notification.remove(), 300); // Remove after fade out
     }, 2500);
 }
+
+document.getElementById("textBox").addEventListener("paste", function (e) {
+    e.preventDefault();
+    const text = (e.clipboardData || window.clipboardData).getData("text");
+    document.execCommand("insertText", false, text);
+});
 
 setupScriptRunner("runFortuneButton", "fortune");
 setupScriptRunner("runJokeButton", "joke");
