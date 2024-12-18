@@ -27,6 +27,15 @@
     src: url('/static/Fonts/Gluten-Light.ttf') format('truetype');
 }
 
+.header-container {
+    position: relative; /* Keeps content in normal flow */
+    width: 100%;
+    height: 60px; /* Adjust this height based on your button size */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; /* Align buttons */
+    align-items: center;
+}
 
 body {
   padding: 0 12px;
@@ -44,9 +53,11 @@ body {
 
 .wifi-icon {
     position: absolute;
-    top: 20px; /* Adjust as needed */
+    top: 20px; /* Distance from the top */
+    left: 50%; /* Center relative to the parent container */
+    transform: translateX(-50%); /* Shift left by 50% of its own width to center */
     font-size: 30px;
-    color: #2196f3;  
+    color: #2196f3;
 }
 .wifi-icon .fa-slash {
     color: red; /* Color of the slash for disconnected state */
@@ -57,7 +68,7 @@ body {
 }
 
 .home-title {
-    margin: 20;
+    margin-bottom: 20px;
     text-align: center;
 }
 .home-button {
@@ -481,7 +492,7 @@ input:checked + .slider:before {
   justify-content: space-around;
   align-items: center;
   padding: 5px;
-  margin: 0 auto 10px auto; /* Center the section horizontally */
+  margin: 20px auto 10px auto; /* Center the section horizontally */
   max-width: 800px; /* Set a maximum width */
   border: 2px solid #ccc;
   border-radius: 8px;
